@@ -1,0 +1,21 @@
+const API_URL = import.meta.env.VITE_API_URL as string;
+
+export const LOGIN_URL = `${API_URL}/users/login/`;
+export const DETAILS_URL = `${API_URL}/users/details/`;
+export const LOGOUT_URL = `${API_URL}/users/logout/`;
+export const REGISTER_REQUEST_URL = `${API_URL}/users/requests/`;
+export const PASSWORD_RESET_URL = `${API_URL}/users/password_reset/`;
+export const VALIDATE_PASSWORD_RESET_TOKEN_URL = `${API_URL}/users/password_reset/validate_token/`;
+export const PASSWORD_RESET_CONFIRM_URL = `${API_URL}/users/password_reset/confirm/`;
+export const MEMBER_UPDATE_URL = `${API_URL}/users/update/`;
+export const COMPANY_UPDATE_URL = `${API_URL}/users/company/update/`;
+export const PASSWORD_UPDATE_URL = `${API_URL}/users/password_update/`;
+export const ASSESSMENTS_URL = `${API_URL}/assessments/`;
+export const INVITE_URL = `${API_URL}/assessments/invites/`;
+export const SKILLS_URL = `${API_URL}/assessments/skills/`;
+export const DIFFICULTIES_URL = `${API_URL}/assessments/difficulties/`;
+export const RESPONDENT_URL = `${API_URL}/assessments/respondents/`;
+export const ATTEMPT_URL = `${API_URL}/assessments/attempts/`;
+export const EXECUTION_URL = `${API_URL}/assessments/executions/`;
+export const FEEDBACK_URL = `${API_URL}/assessments/feedbacks/`;
+export const TRANSACTIONS_URL = `${API_URL}/assessments/transactions/`;
